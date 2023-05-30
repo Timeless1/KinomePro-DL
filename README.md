@@ -43,6 +43,7 @@ You can Draw a molecule using JMSE editor,then click on the submit button to sub
 #### Method 3
 
 You can submit by uploading csv files containing batch molecules, then set the S_score threshold (Default: 0.1) and click on the submit button to submit the calculation.
+
 ![image](https://github.com/Timeless1/KinomeScan/blob/main/fig/image-20230530102156027.png)
 
 ### 3.Prediction Result 
@@ -52,11 +53,13 @@ In the single molecule submission mode, five figures are displayed on the result
 #### Structure
 
 Is the structure of the submitted molecule;
+
 ![image](https://github.com/Timeless1/KinomeScan/blob/main/fig/20230530102422.447293.png)
 
 #### Kinase Profiling
 
 Kinase profiles of the submitted molecules predicted by the model. The more red points in the map suggest that compound potential selectivity may be poor. The fewer map points suggest that compound potential selectivity may be better.
+
 ![image](https://github.com/Timeless1/KinomeScan/blob/main/fig/20230530102422.447293-comp_1.png)
 
 #### Odds
@@ -68,6 +71,7 @@ Odds of predicted compounds, suggesting kinase family selectivity of the compoun
 #### Tsne
 
 Show the 2d spatial dimension reduction results for the submitted compounds with known kinase activity;
+
 ![image](https://github.com/Timeless1/KinomeScan/blob/main/fig/20230530102422.447293-tsne-result.png)
 
 #### Similarity_Result
@@ -87,6 +91,7 @@ The downloaded compressed package contains two csv files, where the csv file nam
 ![image](https://github.com/Timeless1/KinomeScan/blob/main/fig/image-20230530104951321.png)
 
 The second named ref_mols_result.csv file records information on the activity of known kinase active compounds with similarity to submitted predicted compounds greater than 0.5;This file may be empty when not matching to a compound with a similarity greater than 0.5.
+
 ![image](https://github.com/Timeless1/KinomeScan/blob/main/fig/image-20230530105356282.png)
 
 ### 5.Miscellaneous
