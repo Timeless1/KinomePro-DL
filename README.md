@@ -4,7 +4,7 @@ http://10.10.82.191:8888/index
 
 ### 1.Overview
 
-https://github.com/Timeless1/KinomeScan/blob/main/fig/KinomeScan.jpg
+![image](https://github.com/Timeless1/KinomeScan/blob/main/fig/KinomeScan.jpg)
 
 #### Descriptor
 
