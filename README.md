@@ -1,5 +1,5 @@
-# KinomeScan
-Introduction to the use of the KinomeScan model
+# KinomePro-DL
+Introduction to the use of the KinomePro-DL model
 http://10.10.82.191:8888/index
 
 ### 1.Overview
@@ -17,9 +17,9 @@ http://10.10.82.191:8888/index
 
 **4.S_score:** Value range (0-1), dividing the number of all targets predicted to be active by the total number of kinase profile targets (191), the greater the value, the worse the selectivity for the kinase profile, and vice versa.
 
-### 2.How to use KinomeScan
+### 2.How to use KinomePro-DL
 
-KinomeScan provide three methods of molecule submission:
+KinomePro-DL provide three methods of molecule submission:
 
 1). A molecule is submitted from web server by uploading a smiles;
 
@@ -102,5 +102,5 @@ Basically, the calculation process (including activity calculation and graph gen
 
 **Data storage time**
 
-On KinomeScan, a maximum of 7 days of the job records will be stored, so we strongly recommend
+On KinomePro-DL, a maximum of 7 days of the job records will be stored, so we strongly recommend
 users to download all of the results and figures at their suitable times.
