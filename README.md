@@ -1,6 +1,6 @@
 # KinomePro-DL
 Introduction to the use of the KinomePro-DL model
-http://10.10.82.191:8888/index
+[http://10.10.82.191:8888/index](http://47.96.70.114:443/)
 
 ### 1.Overview
 
