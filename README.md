@@ -1,6 +1,6 @@
 # KinomePro-DL
 Introduction to the use of the KinomePro-DL model
-[http://47.96.70.114:443/]
+[kinomepro-dl.pharmablock.com]
 
 ### 1.Overview
 
