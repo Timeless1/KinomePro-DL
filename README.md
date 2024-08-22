@@ -95,7 +95,17 @@ The second named ref_mols_result.csv file records information on the activity of
 
 ![image](https://github.com/Timeless1/KinomeScan/blob/main/fig/image-20230530105356282.png)
 
-### 5.Miscellaneous
+### 5 Fine-Tuning & Finetuned_Prediction
+The procedure for fine-tuning the model involves first uploading the prepared training data (refer to Example for the required format), then clicking the Submit button to initiate the training process, and finally downloading the updated model parameters once the training has completed.
+
+![image](https://github.com/Timeless1/KinomeScan/blob/main/fig/Fine_training.png)
+
+The procedure for making predictions using the fine-tuned model involves first uploading the molecules to be predicted (refer to Example for the required format), then uploading the compressed model parameter file (.tar.gz) downloaded after fine-tuning, and finally clicking the Submit button to initiate the prediction process.
+
+![image](https://github.com/Timeless1/KinomeScan/blob/main/fig/Finetuned_Prediction.png)
+
+
+### 6.Miscellaneous
 
 **Time consumption of a job**
 
