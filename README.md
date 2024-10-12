@@ -1,7 +1,21 @@
 # KinomePro-DL
 <h3 align="center">
 <P> The Development and Application of KinomePro-DL: A Deep Learning Based Online Small Molecule Kinome Selectivity Profiling Prediction Platform </P>
-<h4 align="center">
+Here, we report a deep learning classification model using an in-house built data set of inhibitors against 191 well-representative kinases constructed based on a novel strategy by systematically cleaning and integrating six public data sets. This model, a multitask deep neural network, predicts the kinome selectivity profiles of compounds with novel structures. The model demonstrates excellent predictive performance, with auROC, prc-AUC, Accuracy, and Binary_cross_entropy of 0.95, 0.92, 0.90, and 0.37, respectively. It also performs well in a priori testing for inhibitors targeting different categories of proteins from internal compound collections, significantly improving over similar models on data sets from practical application scenarios. Integrated to subsequent machine learning-enhanced virtual screening workflow, novel CDK2 kinase inhibitors with potent kinase inhibitory activity and excellent kinome selectivity profiles are successfully identified. Additionally, we developed a free online web server, KinomePro-DL, to predict the kinome selectivity profiles and kinome-wide polypharmacology effects of small molecules (available on kinomepro-dl.pharmablock.com). Uniquely, our model allows users to quickly fine-tune it with their own training data sets, enhancing both prediction accuracy and robustness.
+
+---
+## Cite Us
+
+If you found this tools useful, please cite [our paper](https://doi.org/10.1021/acs.jcim.4c00595):
+```
+Ma W, Hu J, Chen Z, Ai Y, Zhang Y, Dong K, Meng X, Liu L.
+The Development and Application of KinomePro-DL: A Deep Learning Based Online Small Molecule Kinome Selectivity Profiling Prediction Platform.
+J Chem Inf Model. 2024 Sep 25.
+doi: 10.1021/acs.jcim.4c00595.
+Epub ahead of print. PMID: 39320984.
+
+```
+---
 Introduction to the use of the KinomePro-DL model
 
 [kinomepro-dl.pharmablock.com](https://kinomepro-dl.pharmablock.com)
@@ -20,6 +34,7 @@ Introduction to the use of the KinomePro-DL model
 **3.Prediction result file:** value range (0-1), the greater the value, the greater the potential activity of the target, and vice versa.
 
 **4.S_score:** Value range (0-1), dividing the number of all targets predicted to be active by the total number of kinase profile targets (191), the greater the value, the worse the selectivity for the kinase profile, and vice versa.
+---
 
 ### 2.How to use KinomePro-DL
 
@@ -49,6 +64,8 @@ You can Draw a molecule using JMSE editor,then click on the submit button to sub
 You can submit by uploading csv files containing batch molecules, then set the S_score threshold (Default: 0.1) and click on the submit button to submit the calculation.
 
 ![image](https://github.com/Timeless1/KinomeScan/blob/main/fig/image-20230530102156027.png)
+
+---
 
 ### 3.Prediction Result 
 
@@ -84,6 +101,8 @@ Show the reference structures of the top 50 known kinase-active compounds with t
 
 ![image](https://github.com/Timeless1/KinomeScan/blob/main/fig/20230530102422.447293-result.png)
 
+---
+
 ### 4.Result Download
 
 After the calculation, users can click on the "Download result" button in the lower right corner to download the result file.
@@ -98,6 +117,8 @@ The second named ref_mols_result.csv file records information on the activity of
 
 ![image](https://github.com/Timeless1/KinomeScan/blob/main/fig/image-20230530105356282.png)
 
+---
+
 ### 5 Fine-Tuning & Finetuned_Prediction
 The procedure for fine-tuning the model involves first uploading the prepared training data (refer to Example for the required format), then clicking the Submit button to initiate the training process, and finally downloading the updated model parameters once the training has completed.
 
@@ -106,6 +127,8 @@ The procedure for fine-tuning the model involves first uploading the prepared tr
 The procedure for making predictions using the fine-tuned model involves first uploading the molecules to be predicted (refer to Example for the required format), then uploading the compressed model parameter file (.tar.gz) downloaded after fine-tuning, and finally clicking the Submit button to initiate the prediction process.
 
 ![image](https://github.com/Timeless1/KinomeScan/blob/main/fig/Finetuned_Prediction.png)
+
+---
 
 
 ### 6.Miscellaneous
