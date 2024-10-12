@@ -2,7 +2,7 @@
 <h3 align="center">
 <P> The Development and Application of KinomePro-DL: A Deep Learning Based Online Small Molecule Kinome Selectivity Profiling Prediction Platform </P>
 </h3>
-Here, we report a deep learning classification model using an in-house built data set of inhibitors against 191 well-representative kinases constructed based on a novel strategy by systematically cleaning and integrating six public data sets. This model, a multitask deep neural network, predicts the kinome selectivity profiles of compounds with novel structures. The model demonstrates excellent predictive performance, with auROC, prc-AUC, Accuracy, and Binary_cross_entropy of 0.95, 0.92, 0.90, and 0.37, respectively. It also performs well in a priori testing for inhibitors targeting different categories of proteins from internal compound collections, significantly improving over similar models on data sets from practical application scenarios. Integrated to subsequent machine learning-enhanced virtual screening workflow, novel CDK2 kinase inhibitors with potent kinase inhibitory activity and excellent kinome selectivity profiles are successfully identified. Additionally, we developed a free online web server, KinomePro-DL, to predict the kinome selectivity profiles and kinome-wide polypharmacology effects of small molecules (available on kinomepro-dl.pharmablock.com). Uniquely, our model allows users to quickly fine-tune it with their own training data sets, enhancing both prediction accuracy and robustness.
+Here, we report a deep learning classification model using an in-house built data set of inhibitors against 191 well-representative kinases constructed based on a novel strategy by systematically cleaning and integrating six public data sets. This model, a multitask deep neural network, predicts the kinome selectivity profiles of compounds with novel structures. The model demonstrates excellent predictive performance, with auROC, prc-AUC, Accuracy, and Binary_cross_entropy of 0.95, 0.92, 0.90, and 0.37, respectively. It also performs well in a priori testing for inhibitors targeting different categories of proteins from internal compound collections, significantly improving over similar models on data sets from practical application scenarios. Integrated to subsequent machine learning-enhanced virtual screening workflow, novel CDK2 kinase inhibitors with potent kinase inhibitory activity and excellent kinome selectivity profiles are successfully identified. Additionally, we developed a free online web server, KinomePro-DL, to predict the kinome selectivity profiles and kinome-wide polypharmacology effects of small molecules (available on [kinomepro-dl.pharmablock.com](https://kinomepro-dl.pharmablock.com)). Uniquely, our model allows users to quickly fine-tune it with their own training data sets, enhancing both prediction accuracy and robustness.
 
 ---
 ## Cite Us
@@ -19,7 +19,6 @@ Epub ahead of print. PMID: 39320984.
 ---
 Introduction to the use of the KinomePro-DL model
 
-[kinomepro-dl.pharmablock.com](https://kinomepro-dl.pharmablock.com)
 
 ### 1.Overview
 
