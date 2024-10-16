@@ -11,11 +11,9 @@
 
 If you found this tools useful, please cite [our paper](https://doi.org/10.1021/acs.jcim.4c00595):
 ```
-Ma W, Hu J, Chen Z, Ai Y, Zhang Y, Dong K, Meng X, Liu L.
-The Development and Application of KinomePro-DL: A Deep Learning Based Online Small Molecule Kinome Selectivity Profiling Prediction Platform.
-J Chem Inf Model. 2024 Sep 25.
-doi: 10.1021/acs.jcim.4c00595.
-Epub ahead of print. PMID: 39320984.
+Wei Ma, Jiaqi Hu, Zhuangzhi Chen, Yaoqin Ai, Yihang Zhang, Keke Dong, Xiangfei Meng, and Liu Liu
+Journal of Chemical Information and Modeling 2024 64 (19), 7273-7290
+DOI: 10.1021/acs.jcim.4c00595
 
 ```
 ---
